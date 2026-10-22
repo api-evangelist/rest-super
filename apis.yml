@@ -1,23 +1,89 @@
 aid: rest-super
+
 name: Rest Super
-description: 'Rest Super is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Rest Super is the brand of the Retail Employees Superannuation Trust (Rest), an Australian profit-to-member superannuation fund serving around 2 million members, with Retail Employees Superannuation Pty Limited (ABN 39 001 987 739, AFSL 240003) as trustee. It offers Rest Super, Rest Corporate and Rest Pension products, retirement and advice services, and the Rest Pay employer contribution platform with published user guides. Its public web presence (rest.com.au) has no published developer API or portal; it was surfaced via the API Evangelist harvest backlog (australia-apidays-2026).
+
 url: https://raw.githubusercontent.com/api-evangelist/rest-super/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Superannuation
+- Financial Services
+- Retirement
+- Pensions
+- Australia
+- Investment
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://rest.com.au/getmedia/b5815433-e6b8-4557-be3d-06a4a29d0e64/rest-reps-man-woman-2-mb.jpg?width=860&height=488&ext=.jpg
+
 common:
+- type: Hosts
+  url: hosts/rest-super-hosts.yml
+- type: IntegrationEdges
+  url: integrations/rest-super-integration-edges.yml
+- type: Vendors
+  url: vendors/rest-super-vendors.yml
+- type: DomainSecurity
+  url: security/rest-super-domain-security.yml
 - type: Website
   url: https://rest.com.au/
+- type: Documentation
+  url: https://rest.com.au/employer/guides
+- type: GettingStarted
+  url: https://rest.com.au/super/manage/getting-started
+- type: Login
+  url: https://rest.com.au/employer/login
+- type: Newsroom
+  url: https://rest.com.au/why-rest/about-rest/news
+- type: Support
+  url: https://rest.com.au/why-rest/about-rest/contact-us
+- type: PrivacyPolicy
+  url: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+- type: TermsOfService
+  url: https://rest.com.au/why-rest/about-rest/fund-details/terms-and-conditions
+- type: Security
+  url: https://rest.com.au/super/manage/memberaccess/security
+- type: LinkedIn
+  url: https://www.linkedin.com/company/rest-super/
+- type: YouTube
+  url: https://www.youtube.com/user/RESTindustrySuper
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Website rest.com.au verified (title "Rest Super", trustee Retail Employees Superannuation Pty Limited). No developer portal, API docs or GitHub org found; github.com/rest-super 404.
+  evidence:
+  - url: https://rest.com.au/
+    status: 200
+  - url: https://rest.com.au/why-rest/about-rest/contact-us
+    status: 200
+  - url: https://github.com/rest-super
+    status: 404
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

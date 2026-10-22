@@ -1,0 +1,30 @@
+generated: '2026-10-22'
+method: searched
+source:
+- https://rest.com.au/why-rest/about-rest/news/employers-lean-into-tech
+- https://zapier.com/apps/rest-super/integrations
+- https://n8n.io/integrations/rest-super/
+- https://composio.dev/toolkits/rest-super
+- https://monid.ai/tools/rest-super
+checked:
+- https://composio.dev/toolkits/rest-super
+- https://monid.ai/tools/rest-super
+- https://n8n.io/integrations/rest-super/
+- https://zapier.com/apps/rest-super/integrations
+- https://rest.com.au/why-rest/about-rest/news/employers-lean-into-tech
+- https://rest.com.au/employer/what-rest-offers/benefits-for-employers
+- https://rest.com.au/employer/guides
+summary: No marketplace listings. Rest's own site names Wrkr (Wrkr Ltd / ClickSuper Pty Ltd trading as Wrkr PAY)
+  as the provider of the Rest Pay clearing house. No published payroll-software integration list was found.
+marketplace_apps: []
+edges:
+- partner_name: Wrkr PAY
+  partner: null
+  type: claimed
+  relationship: core-infrastructure
+  direction: partner-built
+  evidence: https://rest.com.au/why-rest/about-rest/news/employers-lean-into-tech
+  quote: '*Rest Pay is the brand name for the clearing house solution provided by Wrkr Ltd (ABN 50 611 202 414)
+    and ClickSuper Pty Ltd (ABN 48 122 693 985, AFSL 337805) trading as Wrkr PAY.'
+  operations: []
+templates: []

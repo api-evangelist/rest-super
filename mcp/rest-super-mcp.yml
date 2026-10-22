@@ -1,0 +1,26 @@
+generated: '2026-10-22'
+method: none
+status: none
+source:
+- https://rest.com.au/.well-known/mcp.json
+- https://rest.com.au/.well-known/mcp/server-card.json
+note: >-
+  Checked, nothing there. Rest Super publishes no MCP server (hosted or stdio), no
+  developer portal and no OpenAPI contract, so no candidate tool list could be derived.
+  rest.com.au/.well-known/mcp.json and /.well-known/mcp/server-card.json returned 404
+  (2026-10-22); the pre-flight dossier found no MCP docs or tool table on rest.com.au,
+  app., member., entry-forms. or feedback.rest.com.au; a web search for a Rest Super MCP
+  server returned only unrelated products.
+probes:
+- url: https://rest.com.au/.well-known/mcp.json
+  status: 404
+- url: https://rest.com.au/.well-known/mcp/server-card.json
+  status: 404
+tools: []
+deployment:
+  mode: none
+  endpoint: null
+  install: null
+  package: null
+  auth: null
+  verified: probed

@@ -1,0 +1,95 @@
+generated: '2026-10-22'
+method: searched
+source: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+policy_last_updated: '15 June 2026'
+jurisdiction_note: >-
+  Rest (Retail Employees Superannuation Trust) states it is subject to the Australian Privacy Act 1988 and the
+  Australian Privacy Principles. The Terms and Conditions page
+  (https://rest.com.au/why-rest/about-rest/fund-details/terms-and-conditions, HTTP 200) was also read and
+  speaks to none of the signals below.
+signals:
+  data_subject_request:
+    url: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+    section: '14. Accessing and seeking correction of your personal information'
+    channel: Rest's Privacy Officer
+    stated_sla: "We'll respond within 30 days of your request."
+    rights_named: [access, correction]
+    escalation: Office of the Australian Information Commissioner (OAIC)
+    evidence:
+    - source: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        You may request access to the personal information that we hold about you (subject to the exceptions
+        in the Privacy Act ) by contacting Rest’s Privacy Officer. We’ll respond within 30 days of your request.
+        If we are unable to provide the information, we’ll explain why and let you know how to make a complaint.
+    - source: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        We'll need you to verify your identity and tell us what information you’re looking for. An
+        administrative fee for search and photocopying costs may apply.
+    note: >-
+      Access and correction rights under the Privacy Act, routed to a Privacy Officer with a stated 30-day
+      response time and identity verification; a fee may apply. No deletion or portability right is named.
+  data_residency:
+    url: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+    section: '11. Do we disclose your personal information outside Australia?'
+    commitment: none (cross-border disclosure statement, not an in-country storage commitment)
+    countries_named: [United Kingdom, India, Philippines, United States of America, Canada, New Zealand, South Africa, Vietnam, Japan, Singapore]
+    evidence:
+    - source: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        We may disclose personal information to entities located outside of Australia (e.g. our third-party
+        service providers) or to entities who use technology located outside of Australia, for some of the
+        purposes listed above, including: Rest’s office in the United Kingdom; our data hosting and other IT
+        service providers located in, or using technology located in, India, the Philippines, the United States
+        of America, Canada and the United Kingdom
+    note: >-
+      Rest discloses that data hosting and IT providers sit outside Australia and names the countries. This
+      is the opposite of a data-residency guarantee: it records where data may go, not a promise to keep it
+      onshore.
+  data_retention:
+    url: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+    section: '12. How do we hold and keep your personal information secure?'
+    evidence:
+    - source: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        We take reasonable steps to ensure personal information is only retained for as long as it is needed or
+        as required by law. Where personal information is no longer required to be retained, we take reasonable
+        steps to destroy or de-identify this information.
+    note: >-
+      A general retention principle (keep only as long as needed or legally required, then destroy or
+      de-identify). It gives no fixed retention periods.
+  subprocessors:
+    url: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+    section: '13. Contractual arrangements with third parties'
+    named_list: false
+    evidence:
+    - source: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        We take reasonable steps to ensure that all contractual arrangements with third parties adequately
+        address privacy issues, and we make third parties aware of this policy.
+    note: >-
+      Third-party processors are bound contractually and listed only by category (for example insurers,
+      fund administrators, IT and data hosting providers). The policy publishes no named subprocessor list.
+  ai_transparency:
+    url: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+    evidence:
+    - source: https://rest.com.au/why-rest/about-rest/fund-details/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Social Media Platforms; and digital platforms (including, as applicable the use of AI systems) to
+        undertake activities such as website analytics, email campaign management, content tailoring and
+        online behavioural advertising.
+    note: >-
+      The only AI mention: personal information may go to digital platforms that use AI systems for
+      analytics, email campaigns, content tailoring and behavioural advertising. It is a disclosure inside
+      the list of recipients, not an AI transparency statement or policy.

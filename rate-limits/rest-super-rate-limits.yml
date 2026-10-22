@@ -1,0 +1,7 @@
+name: Rest Super rate limits
+generated: '2026-10-22'
+method: none
+source: https://rest.com.au/employer/guides
+limit_count: 0
+limits: []
+note: Rest publishes no public API, so no rate limits are documented anywhere on rest.com.au.

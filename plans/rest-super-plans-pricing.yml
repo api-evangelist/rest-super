@@ -1,0 +1,12 @@
+name: Rest Super pricing
+generated: '2026-10-22'
+method: none
+source: https://rest.com.au/super/products/fees-and-costs
+audience: consumer
+pricing_basis: none
+published: false
+plan_count: 0
+plans: []
+delivery:
+  model: unclear
+note: Rest publishes no developer API and no API/platform pricing. The fees-and-costs page is a superannuation member fee schedule (consumer), not API pricing, so no tiers are recorded. Rest Pay (employer clearing house) is described by Rest as no cost, but it is a business product, not an API.
